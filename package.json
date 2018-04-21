@@ -1,0 +1,23 @@
+{
+    "name": "stratum-pool",
+    "version": "1.0.0",
+    "license": "GPL-2.0",
+    "author": "Jetcash",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jetcash/stratum-pool.git"
+    },
+    "dependencies": {
+        "bignum": "git://github.com/jetcash/node-bignum.git",
+        "async": "*",
+        "redis": "*",
+        "cli-color": "*",
+        "dateformat": "*",
+        "base58-native": "*",
+        "multi-hashing": "git://github.com/jetcash/multi-hashing.git",
+        "cryptonote-util": "git://github.com/jetcash/cryptonote-util.git"
+    },
+    "engines": {
+        "node": ">=5"
+    }
+}
